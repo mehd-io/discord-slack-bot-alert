@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "discord-slack-bot-alert"
+version = "0.1.0"
+description = "Simple discord bot that notify a Slack channel when someone enters a Discord Voice channel"
+authors = ["mehd-io <mehdi@mehd.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+discord = "^1.0.1"
+slack-webhook = "^1.0.4"
+python-decouple = "^3.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
